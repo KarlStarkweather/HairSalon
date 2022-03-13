@@ -12,7 +12,7 @@
 - Entity Framework
 - MySql Database
 
-## Description
+## StyleNotes
 
 This application allows the user to enter stylists and customers, linking each customer to a stylist.
 
