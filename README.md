@@ -22,12 +22,12 @@ Database Structure
 
 ## Setup/Installation Requirements
 
-- Download C# and .NET installed on your computer, you can get the Software Development Kit or SDK for Mac here: Dot.Net for Mac and for Windows here: Dot.Net for Windows. Follow the instructions detailed in both links above for set up.
-- Install and download: MySql Community
-- Install and download: MySql Workbench
+- Open the terminal on your local machine and navigate to where you want to clone the project
+- Run the following command: 
+    - git clone https://github.com/KarlStarkweather/HairSalon.Solution.git
 - Follow the instruction here for configuring MySql:
-    - Open the terminal on your local machine and navigate to where you want to clone the project
-    - Run the following command: git clone https://github.com/KarlStarkweather/HairSalon.Solution.git
+    - Download and install: MySql Community
+    - Download and install: MySql Workbench
 - Follow these steps to import the table needed for the project:
     - Determine if the MySql server is running locally by typing the following into the command line mysql -uroot -p[The password you set up]
     - Open MySql Workbench. 
@@ -46,8 +46,10 @@ Database Structure
       "DefaultConnection": "Server=localhost;Port=3306;database=[THE-NAME-YOU-CHOSE-WHEN-IMPORTING-THE-SCHEMA];uid=root;pwd=[YOUR-PASSWORD-HERE];"
     }
   }
-- In the HairSalon main directory run dotnet build on the command line.
-- Run dotnet run on the command line to start the web server.
+- From the HairSalon main directory, run the following from the command line: 
+    - dotnet build
+- Then run the following to start the web server:
+    - dotnet run 
 
 ## Known Bugs
 
