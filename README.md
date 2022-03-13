@@ -41,12 +41,14 @@ Database Structure
     - Next, press the New... button. This will open a window where you can choose the name of the imported schema. 
     - Choose a name appropriate to the project, e.g. HairSalon and click Okay. We'll need this name later when setting up the project to work with this schema. 
     - If on a mac, click the Start Import button. If on a windows machine, switch to the Import Progress tab on the Data Import page. Click the Import button. Finally, re-click on the Schemas tab. Right-click in the Schemas window, and select Refresh All. The imported schema should now be listed.
-  \*Navigate back to the HairSalon/ directory and create a file named: appsettings.json. In this file, add the following configuration to set up the project to work with the schema you imported:
+- Navigate back to the HairSalon/ directory and create a file named: appsettings.json. In this file, add the following configuration to set up the project to work with the schema you imported:
+<pre>
   {
     "ConnectionStrings": {
       "DefaultConnection": "Server=localhost;Port=3306;database=[THE-NAME-YOU-CHOSE-WHEN-IMPORTING-THE-SCHEMA];uid=root;pwd=[YOUR-PASSWORD-HERE];"
     }
   }
+</pre>
 - From the HairSalon main directory, run the following from the command line: 
     - dotnet build
 - Then run the following to start the web server:
