@@ -24,12 +24,13 @@ Database Structure
 
 - Open the terminal on your local machine and navigate to where you want to clone the project
 - Run the following command: 
-    - git clone https://github.com/KarlStarkweather/HairSalon.Solution.git
+    - git clone https://github.com/KarlStarkweather/HairSalon.git
 - Follow the instruction here for configuring MySql:
     - Download and install: MySql Community
     - Download and install: MySql Workbench
 - Follow these steps to import the table needed for the project:
-    - Determine if the MySql server is running locally by typing the following into the command line mysql -uroot -p[The password you set up]
+    - Determine if the MySql server is running locally by typing the following into the command line:
+        - mysql -uroot -p[The password you set up]
     - Open MySql Workbench. 
     - Once open select the Administration tab. 
     - Next select Data Import/Restore. This opens up the Data Import window with the Import from Disk tab open. 
