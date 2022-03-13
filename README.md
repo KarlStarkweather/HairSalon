@@ -18,7 +18,7 @@ This application allows the user to enter stylists and customers, linking each c
 
 Database Structure
 
-![Database Structure Image](/HairSalon/wwwroot/images/DatabaseImage.jpg){: align="left" height="48px" width="48px"}
+![Database Structure Image](/wwwroot/img/DatabaseImage.jpg){: align="left" height="48px" width="48px"}
 
 ## Setup/Installation Requirements
 
